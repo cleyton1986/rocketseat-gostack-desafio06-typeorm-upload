@@ -54,6 +54,10 @@
 
 Essa será uma aplicação que deve armazenar transações financeiras de entrada e saída e permitir o cadastro e a listagem dessas transações, além de permitir a criação de novos registros no banco de dados a partir do envio de um arquivo csv.
 
+<p align="center">
+  <img  src="./assets/rotas.gif">
+</p>
+
 ## Rotas da aplicação
 
 Agora que você já está com o template clonado e pronto para continuar, você deve verificar os arquivos da pasta `src` e completar onde não possui código com o código para atingir os objetivos de cada rota.
