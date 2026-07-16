@@ -186,7 +186,9 @@ describe('Transaction', () => {
 
     await request(app).delete(`/transactions/${response.body.id}`);
 
-    const transaction = await transactionsRepository.findOne(response.body.id);
+    const transaction = await transactionsRepository.findOne({
+      where: { id: response.body.id },
+    });
 
     expect(transaction).toBeFalsy();
   });
